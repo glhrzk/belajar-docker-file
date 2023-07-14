@@ -10,11 +10,11 @@ docker build -t glhrzk/app:1.0.0 FROM-Dockerfile
 docker build -t glhrzk/app:1.0.0 -t glhrzk/app:latest FROM-Dockerfile
 ============================
 
-FORM INSTRUCTION
-form digunakan untuk mengambil image dari repository, yang digunakan untuk menjalankan/requiredment dari aplikasi kita
+FROM INSTRUCTION
+FROM digunakan untuk mengambil image dari repository, yang digunakan untuk menjalankan/requiredment dari aplikasi kita
 
 instruction Format:
-FORM namaImages:version
+FROM namaImages:version
 
 ============================
 
